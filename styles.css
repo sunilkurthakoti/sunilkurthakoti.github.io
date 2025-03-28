@@ -67,31 +67,30 @@ html {
   padding: 4rem 0;
 }
 
-.profile-section {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-  margin-bottom: 3rem;
+display: flex;
+align-items: center;
+gap: 1.5rem; /* Reduced gap */
+margin-bottom: 2rem; /* Reduced margin */
 }
 
 .profile-image-container {
-  position: relative;
-  flex-shrink: 0;
+position: relative;
+flex-shrink: 0;
 }
 
 .profile-image {
-  width: 200px;
-  height: 200px;
-  border-radius: 2rem;
-  object-fit: cover;
-  border: 4px solid var(--primary);
-  box-shadow: 0 0 30px rgba(37, 99, 235, 0.3);
-  transition: var(--transition);
+width: 120px; /* Reduced size */
+height: 120px;
+border-radius: 1rem; /* Adjusted border-radius */
+object-fit: cover;
+border: 3px solid var(--primary); /* Slightly thinner border */
+box-shadow: 0 0 20px rgba(37, 99, 235, 0.2); /* Softer shadow */
+transition: var(--transition);
 }
 
 .profile-image:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 40px rgba(37, 99, 235, 0.4);
+transform: scale(1.05);
+box-shadow: 0 0 30px rgba(37, 99, 235, 0.3);
 }
 
 .status-indicator {
